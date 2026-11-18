@@ -131,3 +131,33 @@ body{
 .weather{
     display: none;
 }
+
+/* MOBILE RESPONSIVENESS */
+
+@media screen and (max-width: 600px) {
+
+    .card {
+        width: 95%;
+        padding: 30px 20px;
+        margin: 60px auto 0;
+    }
+
+    .weather-icon {
+        width: 130px;
+        height: 130px;
+        object-fit: contain;
+    }
+
+    .search button img {
+        width: 20px;
+        height: 20px;
+        object-fit: contain;
+    }
+
+    .col img {
+        width: 35px;
+        height: 35px;
+        object-fit: contain;
+    }
+
+}
